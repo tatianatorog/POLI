@@ -1,4 +1,4 @@
-function fixstyles (){
+(function fixstyles (){
 var element = document.querySelector("#register-city");
 var xs = document.querySelector(".form-field.text-city label")
 console.log("hola1")
@@ -27,4 +27,4 @@ attributeOldValue: false,
 characterDataOldValue: false
 };
 observer.observe(element, observerOptions);
-}; fixstyles()
+})(); 
